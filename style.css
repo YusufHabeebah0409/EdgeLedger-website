@@ -51,3 +51,10 @@ p {
     background: #93cb52;
     border-radius: 5px;
 }
+
+/* Showcase  */
+#showcase{
+    background: #333 url(./showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
