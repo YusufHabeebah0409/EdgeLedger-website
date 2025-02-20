@@ -58,3 +58,17 @@ p {
     color: #fff;
     height: 100vh;
 }
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* overlay */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+}
