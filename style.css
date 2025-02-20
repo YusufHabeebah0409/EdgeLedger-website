@@ -53,8 +53,8 @@ p {
 }
 
 /* Showcase  */
-#showcase{
-    background: #333 url(./showcase.jpg) no-repeat center center/cover;
-    height: 100vh;
+#showcase {
+    background: #333 url(./showcase.jpg)  no-repeat center center/cover;
     color: #fff;
+    height: 100vh;
 }
