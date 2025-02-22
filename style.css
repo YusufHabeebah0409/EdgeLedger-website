@@ -139,7 +139,7 @@ p {
 }
 
 /* Section What We Do  */
-#what.items {
+#what .items {
     display: flex;
     padding: 1rem;
 }
