@@ -20,45 +20,53 @@ p {
 }
 
 /* utility classes  */
-.container{
+.container {
     max-width: 1100px;
     margin: auto;
     padding: 0 2rem;
     overflow: hidden;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
+
 .text-primary {
     color: #93cb52;
 }
 
-.l-heading{
+.l-heading {
     font-size: 4rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
 
 }
-.m-heading{
+
+.m-heading {
     font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
 
 }
-.lead{
+
+.lead {
     font-size: 1.3rem;
     margin-bottom: 2rem;
 }
-.py-1{
+
+.py-1 {
     padding: 1.5rem 0;
 }
-.py-2{
+
+.py-2 {
     padding: 2rem 0;
 }
-.py-3{
+
+.py-3 {
     padding: 3rem 0;
 }
-.btn{
+
+.btn {
     display: inline-block;
     color: #fff;
     background: #93cb52;
@@ -66,10 +74,12 @@ p {
     border: none;
     border-radius: 5px;
 }
-.btn:hover{
+
+.btn:hover {
     background: #7ab436;
 }
-.btn-dark{
+
+.btn-dark {
     background: #333;
     color: #fff;
 }
@@ -105,13 +115,14 @@ p {
 
 /* Showcase  */
 #showcase {
-    background: #333 url(./showcase.jpg)  no-repeat center center/cover;
+    background: #333 url(./showcase.jpg) no-repeat center center/cover;
     color: #fff;
     height: 100vh;
 }
+
 #showcase .showcase-content {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -119,25 +130,27 @@ p {
     padding: 0 2rem;
 
     /* overlay */
-    position: absolute; 
-    top: 60px; 
+    position: absolute;
+    top: 60px;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Section What We Do  */
-#what.items{
+#what.items {
     display: flex;
     padding: 1rem;
 }
-#what .items .item{
+
+#what .items .item {
     flex: 1;
     text-align: center;
     padding: 1rem;
 }
-#what .items .item i{
+
+#what .items .item i {
     background: #93cb52;
     padding: 1rem;
     border-radius: 50%;
