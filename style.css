@@ -41,8 +41,9 @@ p {
 }
 
 .bg-dark {
-    background: #333;;
-    color:#fff;
+    background: #333;
+    ;
+    color: #fff;
 }
 
 .l-heading {
@@ -64,13 +65,29 @@ p {
     margin-bottom: 2rem;
 }
 
-.py-1 {padding: 1.5rem 0; }
-.py-2 {padding: 2rem 0; }
-.py-3 { padding: 3rem 0; }
+.py-1 {
+    padding: 1.5rem 0;
+}
 
-.p-1 {padding: 1.5rem; }
-.p-2 {padding: 2rem ; }
-.p-3 { padding: 3rem ; }
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
 
 .btn {
     display: inline-block;
@@ -89,10 +106,12 @@ p {
     background: #333;
     color: #fff;
 }
-.list{
+
+.list {
     margin: 0.5rem;
     list-style: none;
 }
+
 .list li {
     padding: 0.5rem;
     border-bottom: 1px #444 dotted;
@@ -172,12 +191,14 @@ p {
 }
 
 /* Section Who We Are  */
-#who{
+#who {
     display: flex;
 }
+
 #who div {
     flex: 1;
 }
+
 #who .who-img {
     background: url(./people.jpg) no-repeat center center/cover;
 }
