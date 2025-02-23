@@ -89,6 +89,14 @@ p {
     background: #333;
     color: #fff;
 }
+.list{
+    margin: 0.5rem;
+    list-style: none;
+}
+.list li {
+    padding: 0.5rem;
+    border-bottom: 1px #444 dotted;
+}
 
 /* Navbar  */
 #navbar {
