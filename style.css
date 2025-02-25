@@ -233,6 +233,7 @@ p {
 
 #contact .contact-form .form-group {
     margin: 0.75rem;
+   
 }
 
 #contact .contact-form label {
@@ -242,5 +243,8 @@ p {
 #contact .contact-form input,
 #contact .contact-form textarea {
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.8rem;
+    border: 1px solid #f4f4f4;
+    border-radius: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
