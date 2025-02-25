@@ -45,8 +45,9 @@ p {
     ;
     color: #fff;
 }
+
 .bg-primary {
-    background:#93cb52 ;
+    background: #93cb52;
     ;
     color: #fff;
 }
@@ -221,20 +222,25 @@ p {
 }
 
 /* Contact  */
-#contact{
+#contact {
     display: flex;
 }
-#contact .map, #contact .contact-form {
+
+#contact .map,
+#contact .contact-form {
     flex: 1;
 }
+
 #contact .contact-form .form-group {
     margin: 0.75rem;
 }
+
 #contact .contact-form label {
     display: block;
 }
+
 #contact .contact-form input,
 #contact .contact-form textarea {
-  width: 100%;
-  padding: 0.5rem;
+    width: 100%;
+    padding: 0.5rem;
 }
