@@ -8,7 +8,7 @@ function initMap() {
 }
 
 // Sticky menu background
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
     if (window.scrollY > 150) {
         document.querySelector('#navbar').style.opacity = 0.9;
     } else {
@@ -18,15 +18,15 @@ window.addEventListener('scroll', function() {
 
 
 // Smooth Scrolling
-$('#navbar a, .btn').on('click', function(event) {
+$('#navbar a, .btn').on('click', function (event) {
     if (this.hash !== '') {
         event.preventDefault();
 
         const hash = this.hash;
 
         $('html, body').animate(
-        { scrollTop: $(hash).offset().top - 100 },
-          800
-    );
+            { scrollTop: $(hash).offset().top - 100 },
+            800
+        );
     }
 });
