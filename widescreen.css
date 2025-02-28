@@ -1,0 +1,5 @@
+/* Align Icon to left  */
+#what .items .item {
+display: flex;
+text-align: left;
+}
