@@ -3,3 +3,13 @@
 display: flex;
 text-align: left;
 }
+
+/* Position icon  */
+#what .items .item i {
+    margin-bottom: 0;
+    margin-right: 1.3rem;
+    align-self: center;  
+}
+#contact #map {
+    flex: 2;
+}
